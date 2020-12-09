@@ -1,0 +1,217 @@
+.intro {
+  padding: 60px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #e7e7e7;
+}
+
+.image3{
+  margin-left: 60rem;
+  margin-top: -17.5rem;
+  width: fit-content;
+  padding: 1.5rem;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+
+
+.container{
+  width: 70%;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 25px;
+  margin-left: -3.5rem;
+}
+
+.intro__hello {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.intro__hello,
+.intro__tagline {
+  font-size: 1.1rem;
+}
+
+.intro__tagline .technologist {
+  background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/81/male-technologist-type-1-2_1f468-1f3fb-200d-1f4bb.png);
+}
+
+.image3 img{
+  border-radius: 25px;
+}
+
+.intro__contact {
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+.intro__hello .wave-hand.animated {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+ 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+ 20% { transform: rotate(-8.0deg) }
+ 30% { transform: rotate(14.0deg) }
+ 40% { transform: rotate(-4.0deg) }
+ 50% { transform: rotate(10.0deg) }
+ 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+100% { transform: rotate( 0.0deg) }
+}
+
+
+.intro__tagline {
+  font-weight: 300;
+  max-width: 700px;
+}
+
+.highlight-link {
+  color: #e7e7e7;
+}
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+
+.intro__contact .highlight-link {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 3px;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0 -3px 0 #007bff;
+  box-shadow: inset 0 -3px 0 #007bff;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.highlight-link:hover {
+  background-color: #007bff;
+}
+
+.intro__hello .wave-hand {
+  background-image: url(https://i.pinimg.com/originals/21/f2/07/21f2078d23f9195570a3711c018328b2.png);
+  margin-left: 10px;
+  cursor: pointer;
+}
+.intro__hello .emoji,
+.intro__tagline .emoji {
+  width: 40px;
+  height: 40px;
+}
+.emoji {
+  display: inline-block;
+  vertical-align: text-top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intro__contact .emoji.pointer {
+  background-image: url(https://images.emojiterra.com/google/android-10/512px/1f449.png);
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  vertical-align: text-bottom;
+}
+
+@media screen and (max-width: 360px) {
+  .intro__hello,
+  .intro__tagline {
+    font-size: 1.2rem !important;
+  }
+
+  .intro__contact {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 300px){
+  .intro__contact{
+    font-size: 0.9rem !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    padding: 70px 50px !important;
+  }
+
+  .intro__contact {
+    font-size: 1.1rem ;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro__hello,
+  .intro__tagline {
+    font-size: 1.6rem;
+  }
+
+  .intro__contact {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .intro {
+    padding: 120px 70px;
+  }
+
+  .intro__hello .emoji {
+    width: 25px;
+    height: 25px;
+  }
+
+  .intro__contact .emoji.pointer {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .container{
+    width: 100%;
+    border: none;
+    margin-left: -1.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__hello .emoji {
+    width: 30px;
+    height: 30px;
+  }
+
+  .image3{
+    display: none;
+  }
+
+  .intro__contact .emoji.pointer {
+    width: 30px;
+    height: 30px;
+  }
+}
