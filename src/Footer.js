@@ -13,7 +13,7 @@ function Footer() {
           target="__blank"
           className="github"
         >
-          <h4>GithuB</h4>
+          <h4>Github</h4>
         </a>
         <a
           href="https://www.kaggle.com/siddhant123"
