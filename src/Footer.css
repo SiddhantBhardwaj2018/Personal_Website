@@ -1,0 +1,48 @@
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer{
+    margin-bottom: 0.5rem;
+}
+
+.items h4 {
+  color: #e7e7e7;
+  box-shadow: inset 0 -3px 0 #007bff;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.items a {
+  text-decoration: none;
+}
+
+
+.items a:hover{
+    transition: all 0.2s ease-in-out;
+    background-color:  #007bff;
+}
+
+
+.copyright{
+  text-align: center;
+  margin-top: 4rem;
+  color: #e7e7e7;
+  font-weight: 500;
+
+}
+
+.rockon{
+  height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width:768px){
+  .items h4{
+    font-size: 1rem;
+  }
+}
