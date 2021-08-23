@@ -18,15 +18,11 @@ function Experience() {
           </div>
           <div className="para">
             <p>
-              At my internship at Deloitte, an edtech startup based out of
-              Tucson, Arizona, I was involved in attempting to build a
-              recommender system using the Naive Bayes and Logistic Regression
-              Algorithms to generate topic labels for educational material in
-              order to ease the process of topic identification and make it
-              easier for students to find a common cluster of topics. I also
-              participated in the OpenClass Prize, a contest of the most
-              accurate recommender systems in identifying topic labels
-              associated with a piece of educational text.
+              At my internship at Deloitte, I was involved in attempting to build a recommender system 
+              application using the Flask web framework and React UI framework.I performed a complete analysis of various 
+              recommender system approaches like content-based filtering and collaborative filtering, including 
+              the accuracy metrics and implemented them in the form of APIs.I also recorded website visitor 
+              entries to monitor model accuracy for further improvements to the model.
             </p>
             <div className="project__used">
               <span className="project__used__item">Python</span>
